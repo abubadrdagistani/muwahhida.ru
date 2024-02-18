@@ -1,0 +1,71 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: rgb(245, 245, 245);
+  }
+  
+  .registration-form {
+    max-width: 300px;
+    margin: auto;
+    padding: 100px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #faf4f4;
+}
+
+.registration-form label {
+    font-weight: bold;
+}
+
+.registration-form input[type="text"],
+.registration-form input[type="email"],
+.registration-form input[type="password"] {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.registration-form input[type="submit"] {
+    background-color: #050905;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.registration-form input[type="submit"]:hover {
+    background-color: #2f312f;
+}
+
+.notification {
+    position: fixed;
+    top: 50%;
+    margin-top: 200px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: none;
+}
+
+.notification.show {
+    display: block;
+}
+
+.block {
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .block img {
+    text-align: center;
+    width: 100px;
+  }
+  
